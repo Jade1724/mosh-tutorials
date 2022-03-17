@@ -18,3 +18,19 @@ let b = 4;
 console.log("The mean of " + a +" and " + b + " is " + average(a, b));
 
 variable_demo();
+
+// Primitives
+let name = "Haruka";
+let age = 23;
+let isMasterOfJS = false;
+let secret;
+
+// Object
+let person = {
+    name: "Haruka",
+    age: 23,
+    isMasterOfJS: false,
+}
+
+console.log(person.name);
+person.isMasterOfJS = true;
