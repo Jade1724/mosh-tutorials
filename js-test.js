@@ -34,3 +34,26 @@ let person = {
 
 console.log(person.name);
 person.isMasterOfJS = true;
+
+let selectedColors = ['red', 'blue', 'green'];
+selectedColors.push('orange');
+console.log(selectedColors);
+
+let cups = [];
+cups.push('coffee cup');
+if (cups.length == 0) {
+    console.log("You haven't selected any cup!");
+} else {
+    console.log("Enter your address");
+}
+
+// Functions
+function greet(nameToCall) {
+    console.log('Hello ' + nameToCall + ' !');
+}
+
+greet('John', 'Doe');
+
+// Escape sequence test
+let message = 'something\nwrong';
+console.log(message);
