@@ -57,3 +57,20 @@ greet('John', 'Doe');
 // Escape sequence test
 let message = 'something\nwrong';
 console.log(message);
+
+// if and else
+
+let hour = 10;
+
+// Loops
+
+let products = ['good phone', 'nice phone', 'laptop', 'another laptop', 'yet another nice phone'];
+
+for (let i = 0; i < products.length; i++) {
+    if (products[i].includes('phone')) console.log(products[i]);
+}
+
+const yellowCardCount = 1;
+const faulMessage = 
+`Tim has got ${yellowCardCount} yellow card${yellowCardCount === 1 ? '': 's'}`;
+console.log(faulMessage);
