@@ -1,3 +1,5 @@
+/* First JavaScript assignment answers submitted by Tim the extremely beginner of JS */
+
 //Assignment 1
 //Q1
 let brand = 'Apple';
@@ -30,4 +32,3 @@ function greeting (Owners) {
 }
 
 greeting('Tim');
-
